@@ -1,0 +1,29 @@
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+    font-size: 36px; /* Adjust size as necessary */
+    vertical-align: middle; /* Aligns icon properly */
+}
+.icon{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.icon p{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.sidebar{
+    width: 18%;
+    min-height: 85vh;
+    border: 1.5px solid #a9a9a9;
+    border-top: 0;
+}
+.sidebar-options{
+    padding-top: 50px;
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}

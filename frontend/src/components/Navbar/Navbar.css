@@ -1,0 +1,104 @@
+.navbar {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 80px;
+    margin-left: 100px;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-right .material-symbols-outlined {
+    font-size: 32px;
+    color: #4e4747;
+}
+
+.navbar button {
+    background: transparent;
+    font-size: 16px;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar button :hover {
+    background-color: #fff4f2;
+}
+
+.navbar .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+
+.navbar-menu .menu {
+    transition: 0.2s;
+}
+
+.navbar-search-icon {
+    position: relative;
+}
+
+.navbarProfile {
+    position: relative;
+}
+
+.navprofiledropdown {
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: 1;
+}
+
+.navbarProfile:hover .navprofiledropdown {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #efedec;
+    padding: 10px 25px;
+    border-radius: 4px;
+    border: 1px solid black;
+    outline: 2px solid white;
+    list-style: none;
+}
+
+.navprofileitem li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+    .navbar .logo {
+        width: 140px;
+    }
+
+    .navbar-menu {
+        gap: 20px;
+        font-size: 17px;
+    }
+
+    .navbar-right {
+        gap: 20px
+    }
+
+}
