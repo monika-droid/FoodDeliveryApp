@@ -3,8 +3,7 @@ import { food_list } from "../assets/assets";
 
 export const StoreContext = createContext(null);
 
-export const 
- = (props) => {
+export const StoreContextProvider = (props) => {
     const [cartItem, setCartItem] = useState({});
     const url = "http://localhost:4000";
     const [token, setToken] = useState({})
